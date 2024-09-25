@@ -24,4 +24,4 @@ In the context of neural-based audio feature extraction, disentangling the infor
 </div>
 </html>
 
-*Index Terms - feature extraction, quantization, random codebooks, audio reconstruction*
+*Index Terms - Neural Audio Codec, Disentanglement, Frequency Decomposition, Inpainting*
