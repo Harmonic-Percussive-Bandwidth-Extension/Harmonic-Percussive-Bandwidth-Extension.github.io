@@ -11,7 +11,7 @@ header:
 excerpt: #"Soft Disentanglement in Frequency Bands for Neural Audio Codecs"
 ---
 
-Welcome to this demo website, in which we display examples of reconstructions / inpainting we obtained thanks to the model introduced in the paper "Soft Disentanglement in Frequency Bands for Neural Audio Codecs", that has been submitted to ICASSP 2025. These excerpts are displayed in [Audio Examples](./audio.md).
+Welcome to this demo website, in which we display examples of reconstructions / inpaintings we obtained thanks to the model introduced in the paper "Soft Disentanglement in Frequency Bands for Neural Audio Codecs", that has been submitted to ICASSP 2025. These excerpts are displayed in [Audio Examples](./audio.md).
 
 # Abstract
 
