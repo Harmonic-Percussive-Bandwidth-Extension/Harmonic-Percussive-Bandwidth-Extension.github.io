@@ -18,261 +18,279 @@ toc_sticky: true
 </html>
 
 
-In this page, we introduce a few audio examples drawn from the test set of <a href="https://sigsep.github.io/datasets/musdb.html" target="_blank" rel="noopener noreferrer">MUSDB18</a>. These audio examples are compressed and reconstructed using 4 different models: Baseline (<a href="https://arxiv.org/pdf/2306.06546" target="_blank" rel="noopener noreferrer">DAC</a> trained on MUSDB18 only), RandRVQ1, RandRVQ4 and RandRVQ5 (which are introduced in table II of the paper).
-
-It is important to have in mind that the RandRVQ models are still random at inference. The results displayed here might not be the best results we could get from those models.
+In this page, we introduce a few audio examples drawn from the test set of <a href="https://sigsep.github.io/datasets/musdb.html" target="_blank" rel="noopener noreferrer">MUSDB18</a>. These audio examples are downsampled at 16kHz and 22kHz, then compressed and reconstructed using our disentangled codec. We also perform bandwidth extension, proceeding as described in section VI of the paper.
 
 ---
-# Experiments results
+# Experimental results
 
 ## Sample 1
 
-> Source
+> Source 16kHz
 <audio controls>
-  <source src="audio/source_samples/sample_0.wav"/>
+  <source src="audio/source/sample_10_sr16000.wav"/>
 </audio>
 
-> Baseline
+> Reconstruction 16kHz
 <audio controls>
-  <source src="audio/baseline_output_samples/sample_0.wav"/>
+  <source src="audio/reconstruction/sample_10_sr16000.wav"/>
 </audio>
 
-> RandRVQ1
+> Source 22kHz
 <audio controls>
-  <source src="audio/8192_1024_output_samples/sample_0.wav"/>
+  <source src="audio/source/sample_10_sr22050.wav"/>
 </audio>
 
-> RandRVQ4
+> Reconstruction 22kHz
 <audio controls>
-  <source src="audio/16384_512_output_samples/sample_0.wav"/>
+  <source src="audio/reconstruction/sample_10_sr22050.wav"/>
 </audio>
 
-> RandRVQ5
+> Inpainting
 <audio controls>
-  <source src="audio/16384_512_6rq_output_samples/sample_0.wav"/>
+  <source src="audio/inpainting/sample_10_sr22050.wav"/>
 </audio>
-<br/>
 
 ## Sample 2
 
-> Source
+> Source 16kHz
 <audio controls>
-  <source src="audio/source_samples/sample_12.wav"/>
+  <source src="audio/source/sample_195_sr16000.wav"/>
 </audio>
 
-> Baseline
+> Reconstruction 16kHz
 <audio controls>
-  <source src="audio/baseline_output_samples/sample_12.wav"/>
+  <source src="audio/reconstruction/sample_195_sr16000.wav"/>
 </audio>
 
-> RandRVQ1
+> Source 22kHz
 <audio controls>
-  <source src="audio/8192_1024_output_samples/sample_12.wav"/>
+  <source src="audio/source/sample_195_sr22050.wav"/>
 </audio>
 
-> RandRVQ4
+> Reconstruction 22kHz
 <audio controls>
-  <source src="audio/16384_512_output_samples/sample_12.wav"/>
+  <source src="audio/reconstruction/sample_195_sr22050.wav"/>
 </audio>
 
-> RandRVQ5
+> Inpainting
 <audio controls>
-  <source src="audio/16384_512_6rq_output_samples/sample_12.wav"/>
+  <source src="audio/inpainting/sample_195_sr22050.wav"/>
 </audio>
-<br/>
 
 ## Sample 3
 
-> Source
+> Source 16kHz
 <audio controls>
-  <source src="audio/source_samples/sample_173.wav"/>
+  <source src="audio/source/sample_271_sr16000.wav"/>
 </audio>
 
-> Baseline
+> Reconstruction 16kHz
 <audio controls>
-  <source src="audio/baseline_output_samples/sample_173.wav"/>
+  <source src="audio/reconstruction/sample_271_sr16000.wav"/>
 </audio>
 
-> RandRVQ1
+> Source 22kHz
 <audio controls>
-  <source src="audio/8192_1024_output_samples/sample_173.wav"/>
+  <source src="audio/source/sample_271_sr22050.wav"/>
 </audio>
 
-> RandRVQ4
+> Reconstruction 22kHz
 <audio controls>
-  <source src="audio/16384_512_output_samples/sample_173.wav"/>
+  <source src="audio/reconstruction/sample_271_sr22050.wav"/>
 </audio>
 
-> RandRVQ5
+> Inpainting
 <audio controls>
-  <source src="audio/16384_512_6rq_output_samples/sample_173.wav"/>
+  <source src="audio/inpainting/sample_271_sr22050.wav"/>
 </audio>
-<br/>
 
 ## Sample 4
 
-> Source
+> Source 16kHz
 <audio controls>
-  <source src="audio/source_samples/sample_501.wav"/>
+  <source src="audio/source/sample_331_sr16000.wav"/>
 </audio>
 
-> Baseline
+> Reconstruction 16kHz
 <audio controls>
-  <source src="audio/baseline_output_samples/sample_501.wav"/>
+  <source src="audio/reconstruction/sample_331_sr16000.wav"/>
 </audio>
 
-> RandRVQ1
+> Source 22kHz
 <audio controls>
-  <source src="audio/8192_1024_output_samples/sample_501.wav"/>
+  <source src="audio/source/sample_331_sr22050.wav"/>
 </audio>
 
-> RandRVQ4
+> Reconstruction 22kHz
 <audio controls>
-  <source src="audio/16384_512_output_samples/sample_501.wav"/>
+  <source src="audio/reconstruction/sample_331_sr22050.wav"/>
 </audio>
 
-> RandRVQ5
+> Inpainting
 <audio controls>
-  <source src="audio/16384_512_6rq_output_samples/sample_501.wav"/>
+  <source src="audio/inpainting/sample_331_sr22050.wav"/>
 </audio>
-<br/>
 
 ## Sample 5
 
-> Source
+> Source 16kHz
 <audio controls>
-  <source src="audio/source_samples/sample_646.wav"/>
+  <source src="audio/source/sample_486_sr16000.wav"/>
 </audio>
 
-> Baseline
+> Reconstruction 16kHz
 <audio controls>
-  <source src="audio/baseline_output_samples/sample_646.wav"/>
+  <source src="audio/reconstruction/sample_486_sr16000.wav"/>
 </audio>
 
-> RandRVQ1
+> Source 22kHz
 <audio controls>
-  <source src="audio/8192_1024_output_samples/sample_646.wav"/>
+  <source src="audio/source/sample_486_sr22050.wav"/>
 </audio>
 
-> RandRVQ4
+> Reconstruction 22kHz
 <audio controls>
-  <source src="audio/16384_512_output_samples/sample_646.wav"/>
+  <source src="audio/reconstruction/sample_486_sr22050.wav"/>
 </audio>
 
-> RandRVQ5
+> Inpainting
 <audio controls>
-  <source src="audio/16384_512_6rq_output_samples/sample_646.wav"/>
+  <source src="audio/inpainting/sample_486_sr22050.wav"/>
 </audio>
-<br/>
 
 ## Sample 6
 
-> Source
+> Source 16kHz
 <audio controls>
-  <source src="audio/source_samples/sample_709.wav"/>
+  <source src="audio/source/sample_516_sr16000.wav"/>
 </audio>
 
-> Baseline
+> Reconstruction 16kHz
 <audio controls>
-  <source src="audio/baseline_output_samples/sample_709.wav"/>
+  <source src="audio/reconstruction/sample_516_sr16000.wav"/>
 </audio>
 
-> RandRVQ1
+> Source 22kHz
 <audio controls>
-  <source src="audio/8192_1024_output_samples/sample_709.wav"/>
+  <source src="audio/source/sample_516_sr22050.wav"/>
 </audio>
 
-> RandRVQ4
+> Reconstruction 22kHz
 <audio controls>
-  <source src="audio/16384_512_output_samples/sample_709.wav"/>
+  <source src="audio/reconstruction/sample_516_sr22050.wav"/>
 </audio>
 
-> RandRVQ5
+> Inpainting
 <audio controls>
-  <source src="audio/16384_512_6rq_output_samples/sample_709.wav"/>
+  <source src="audio/inpainting/sample_516_sr22050.wav"/>
 </audio>
-<br/>
 
 ## Sample 7
 
-> Source
+> Source 16kHz
 <audio controls>
-  <source src="audio/source_samples/sample_787.wav"/>
+  <source src="audio/source/sample_605_sr16000.wav"/>
 </audio>
 
-> Baseline
+> Reconstruction 16kHz
 <audio controls>
-  <source src="audio/baseline_output_samples/sample_787.wav"/>
+  <source src="audio/reconstruction/sample_605_sr16000.wav"/>
 </audio>
 
-> RandRVQ1
+> Source 22kHz
 <audio controls>
-  <source src="audio/8192_1024_output_samples/sample_787.wav"/>
+  <source src="audio/source/sample_605_sr22050.wav"/>
 </audio>
 
-> RandRVQ4
+> Reconstruction 22kHz
 <audio controls>
-  <source src="audio/16384_512_output_samples/sample_787.wav"/>
+  <source src="audio/reconstruction/sample_605_sr22050.wav"/>
 </audio>
 
-> RandRVQ5
+> Inpainting
 <audio controls>
-  <source src="audio/16384_512_6rq_output_samples/sample_787.wav"/>
+  <source src="audio/inpainting/sample_605_sr22050.wav"/>
 </audio>
-<br/>
 
 ## Sample 8
 
-> Source
+> Source 16kHz
 <audio controls>
-  <source src="audio/source_samples/sample_959.wav"/>
+  <source src="audio/source/sample_745_sr16000.wav"/>
 </audio>
 
-> Baseline
+> Reconstruction 16kHz
 <audio controls>
-  <source src="audio/baseline_output_samples/sample_959.wav"/>
+  <source src="audio/reconstruction/sample_745_sr16000.wav"/>
 </audio>
 
-> RandRVQ1
+> Source 22kHz
 <audio controls>
-  <source src="audio/8192_1024_output_samples/sample_959.wav"/>
+  <source src="audio/source/sample_745_sr22050.wav"/>
 </audio>
 
-> RandRVQ4
+> Reconstruction 22kHz
 <audio controls>
-  <source src="audio/16384_512_output_samples/sample_959.wav"/>
+  <source src="audio/reconstruction/sample_745_sr22050.wav"/>
 </audio>
 
-> RandRVQ5
+> Inpainting
 <audio controls>
-  <source src="audio/16384_512_6rq_output_samples/sample_959.wav"/>
+  <source src="audio/inpainting/sample_745_sr22050.wav"/>
 </audio>
-<br/>
 
 ## Sample 9
 
-> Source
+> Source 16kHz
 <audio controls>
-  <source src="audio/source_samples/sample_999.wav"/>
+  <source src="audio/source/sample_821_sr16000.wav"/>
 </audio>
 
-> Baseline
+> Reconstruction 16kHz
 <audio controls>
-  <source src="audio/baseline_output_samples/sample_999.wav"/>
+  <source src="audio/reconstruction/sample_821_sr16000.wav"/>
 </audio>
 
-> RandRVQ1
+> Source 22kHz
 <audio controls>
-  <source src="audio/8192_1024_output_samples/sample_999.wav"/>
+  <source src="audio/source/sample_821_sr22050.wav"/>
 </audio>
 
-> RandRVQ4
+> Reconstruction 22kHz
 <audio controls>
-  <source src="audio/16384_512_output_samples/sample_999.wav"/>
+  <source src="audio/reconstruction/sample_821_sr22050.wav"/>
 </audio>
 
-> RandRVQ5
+> Inpainting
 <audio controls>
-  <source src="audio/16384_512_6rq_output_samples/sample_999.wav"/>
+  <source src="audio/inpainting/sample_821_sr22050.wav"/>
 </audio>
+
+## Sample 10
+
+> Source 16kHz
+<audio controls>
+  <source src="audio/source/sample_903_sr16000.wav"/>
+</audio>
+
+> Reconstruction 16kHz
+<audio controls>
+  <source src="audio/reconstruction/sample_903_sr16000.wav"/>
+</audio>
+
+> Source 22kHz
+<audio controls>
+  <source src="audio/source/sample_903_sr22050.wav"/>
+</audio>
+
+> Reconstruction 22kHz
+<audio controls>
+  <source src="audio/reconstruction/sample_903_sr22050.wav"/>
+</audio>
+
+> Inpainting
+<audio controls>
+  <source src="audio/inpainting/sample_903_sr22050.wav"/>
+</audio>
+
 <br/>
