@@ -35,19 +35,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_10_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_10_sr22050.wav"/>
+  <source src="audio/source/sample_10_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_10_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_10_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_10_sr22050.wav"/>
+  <source src="audio/inpainting/sample_10_sr32000.wav"/>
 </audio>
 
 ## Sample 2
@@ -62,19 +62,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_195_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_195_sr22050.wav"/>
+  <source src="audio/source/sample_195_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_195_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_195_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_195_sr22050.wav"/>
+  <source src="audio/inpainting/sample_195_sr32000.wav"/>
 </audio>
 
 ## Sample 3
@@ -89,19 +89,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_271_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_271_sr22050.wav"/>
+  <source src="audio/source/sample_271_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_271_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_271_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_271_sr22050.wav"/>
+  <source src="audio/inpainting/sample_271_sr32000.wav"/>
 </audio>
 
 ## Sample 4
@@ -116,19 +116,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_331_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_331_sr22050.wav"/>
+  <source src="audio/source/sample_331_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_331_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_331_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_331_sr22050.wav"/>
+  <source src="audio/inpainting/sample_331_sr32000.wav"/>
 </audio>
 
 ## Sample 5
@@ -143,19 +143,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_486_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_486_sr22050.wav"/>
+  <source src="audio/source/sample_486_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_486_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_486_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_486_sr22050.wav"/>
+  <source src="audio/inpainting/sample_486_sr32000.wav"/>
 </audio>
 
 ## Sample 6
@@ -170,19 +170,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_516_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_516_sr22050.wav"/>
+  <source src="audio/source/sample_516_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_516_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_516_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_516_sr22050.wav"/>
+  <source src="audio/inpainting/sample_516_sr32000.wav"/>
 </audio>
 
 ## Sample 7
@@ -197,19 +197,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_605_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_605_sr22050.wav"/>
+  <source src="audio/source/sample_605_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_605_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_605_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_605_sr22050.wav"/>
+  <source src="audio/inpainting/sample_605_sr32000.wav"/>
 </audio>
 
 ## Sample 8
@@ -224,19 +224,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_745_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_745_sr22050.wav"/>
+  <source src="audio/source/sample_745_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_745_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_745_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_745_sr22050.wav"/>
+  <source src="audio/inpainting/sample_745_sr32000.wav"/>
 </audio>
 
 ## Sample 9
@@ -251,19 +251,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_821_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_821_sr22050.wav"/>
+  <source src="audio/source/sample_821_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_821_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_821_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_821_sr22050.wav"/>
+  <source src="audio/inpainting/sample_821_sr32000.wav"/>
 </audio>
 
 ## Sample 10
@@ -278,19 +278,19 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   <source src="audio/reconstruction/sample_903_sr16000.wav"/>
 </audio>
 
-> Source 22kHz
+> Source 32kHz
 <audio controls>
-  <source src="audio/source/sample_903_sr22050.wav"/>
+  <source src="audio/source/sample_903_sr32000.wav"/>
 </audio>
 
-> Reconstruction 22kHz
+> Reconstruction 32kHz
 <audio controls>
-  <source src="audio/reconstruction/sample_903_sr22050.wav"/>
+  <source src="audio/reconstruction/sample_903_sr32000.wav"/>
 </audio>
 
 > Inpainting
 <audio controls>
-  <source src="audio/inpainting/sample_903_sr22050.wav"/>
+  <source src="audio/inpainting/sample_903_sr32000.wav"/>
 </audio>
 
 <br/>
