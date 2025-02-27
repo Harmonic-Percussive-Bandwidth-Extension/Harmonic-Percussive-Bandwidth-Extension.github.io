@@ -11,14 +11,14 @@ header:
 excerpt: #"Soft Disentanglement in Frequency Bands for Neural Audio Codecs"
 ---
 
-Welcome to this demo website, in which we display examples of reconstructions / inpaintings we obtained thanks to the model introduced in the paper "Soft Disentanglement in Frequency Bands for Neural Audio Codecs", that has been submitted to ICASSP 2025. These excerpts are displayed in [Audio Examples](./audio.md).
+Welcome to this demo website, in which we display examples of reconstructions / inpaintings we obtained thanks to the model introduced in the paper "Soft Disentanglement in Frequency Bands for Neural Audio Codecs", that has been submitted to EUSIPCO 2025. These excerpts are displayed in [Audio Examples](./audio.md).
 
 # Abstract
 
 <html>
 <div style="text-align: justify">
 <p>
-In the context of neural-based audio feature extraction, disentangling the information captured by the extracted representation has become increasingly important for interpretability. Most current disentanglement approaches rely on specific assumptions that depend heavily on the nature of data or the specific task at hand. In this work, we propose a new, general method for obtained disentangled features within the neural architecture. Our approach involves performing a spectral decomposition of the signals in the time domain and applying a multibranch audio codec to this decomposition. We demonstrate that this method achieves reconstruction metrics comparable to a state of the art baseline model and offers potential benefits for inpainting.
+In neural-based audio feature extraction, ensuring that representations capture disentangled information is crucial for model interpretability. However, existing disentanglement methods often rely on assumptions that are highly dependent on data characteristics or specific tasks. In this work, we introduce a generalizable approach for learning disentangled features within a neural architecture. Our method applies spectral decomposition to time-domain signals, followed by a multi-branch audio codec that operates on the decomposed components. Empirical evaluations demonstrate that our approach achieves better reconstruction and perceptual performance compared to a state-of-the-art baseline while also offering potential advantages for inpainting tasks.
 </p>
 
 </div>
