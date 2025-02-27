@@ -18,7 +18,7 @@ toc_sticky: true
 </html>
 
 
-In this page, we introduce a few audio examples drawn from the test set of <a href="https://sigsep.github.io/datasets/musdb.html" target="_blank" rel="noopener noreferrer">MUSDB18</a>. These audio examples are downsampled at 16kHz and 22kHz, then compressed and reconstructed using our disentangled codec. We also perform bandwidth extension, proceeding as described in section VI of the paper.
+In this page, we introduce a few audio examples drawn from the test set of <a href="https://sigsep.github.io/datasets/musdb.html" target="_blank" rel="noopener noreferrer">MUSDB18</a>. These audio examples are downsampled at 16kHz and 32kHz, then compressed and reconstructed using our disentangled codec. We also perform bandwidth extension, proceeding as described in section VI of the paper.
 
 ---
 # Experimental results
