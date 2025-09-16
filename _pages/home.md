@@ -8,20 +8,20 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.6"
 #   overlay_image: /images/particles.jpg
-excerpt: #"Soft Disentanglement in Frequency Bands for Neural Audio Codecs"
+excerpt: #"Harmonic-Percussive Disentangled Neural Audio Codec for Bandwidth Extension"
 ---
 
-Welcome to this demo website, in which we display examples of reconstructions / inpaintings we obtained thanks to the model introduced in the paper "Soft Disentanglement in Frequency Bands for Neural Audio Codecs", that has been submitted to EUSIPCO 2025. These excerpts are displayed in [Audio Examples](./audio.md).
+Welcome to this demo website, in which we display examples of extended signals we obtained thanks to the models introduced in the paper "Harmonic-Percussive Disentangled Neural Audio Codec for Bandwidth Extension", that has been submitted to ICLR 2026. These excerpts are displayed in [Audio Examples](./audio.md).
 
 # Abstract
 
 <html>
 <div style="text-align: justify">
 <p>
-In neural-based audio feature extraction, ensuring that representations capture disentangled information is crucial for model interpretability. However, existing disentanglement methods often rely on assumptions that are highly dependent on data characteristics or specific tasks. In this work, we introduce a generalizable approach for learning disentangled features within a neural architecture. Our method applies spectral decomposition to time-domain signals, followed by a multi-branch audio codec that operates on the decomposed components. Empirical evaluations demonstrate that our approach achieves better reconstruction and perceptual performance compared to a state-of-the-art baseline while also offering potential advantages for inpainting tasks.
+Neural audio codecs have emerged as effective feature extractors, providing discrete latent representations that can be modeled with language models for audio generation and processing. We address the task of bandwidth extension by leveraging the structure of these representations. Our approach disentangles codec latents through a spectrally informed harmonic–percussive decomposition and performs token prediction with a transformer language model. Experiments demonstrate that our method achieves superior reconstruction quality compared to state-of-the-art baselines, as measured by standard objective metrics.
 </p>
 
 </div>
 </html>
 
-*Index Terms - Neural Audio Codec, Disentanglement, Frequency Decomposition, Inpainting*
+*Index Terms - Neural Audio Codec, Disentanglement, Harmonic-Percussive Decomposition, Bandwidth Extension*
