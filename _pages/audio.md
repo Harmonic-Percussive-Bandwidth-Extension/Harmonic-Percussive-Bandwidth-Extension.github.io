@@ -25,11 +25,6 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 
 ## Sample 1
 
-> Source 16kHz
-<audio controls>
-  <source src="audio/source/11-48.wav"/>
-</audio>
-
 <html>
   <table>
     <thread>
@@ -60,22 +55,22 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/reference/11-16.wav" type="audio/wav">
+            <source src="/audio/anchor/11-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/reference/11-apo.wav" type="audio/wav">
+            <source src="/audio/apollo/11-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/reference/11-aud.wav" type="audio/wav">
+            <source src="/audio/audiosr/11-aud.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/reference/11-our.wav" type="audio/wav">
+            <source src="/audio/hpcodec/11-our.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -84,5 +79,621 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 </html>
 <br/>
 
+
+## Sample 2
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/27-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/27-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/27-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/27-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/27-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 3
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/105-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/105-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/105-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/105-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/105-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 4
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/131-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/131-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/131-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/131-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/131-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 5
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/189-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/189-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/189-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/189-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/189-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 6
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/407-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/407-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/407-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/407-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/407-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 7
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/535-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/535-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/535-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/535-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/535-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 8
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/658-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/658-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/658-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/658-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/658-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 9
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/723-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/723-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/723-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/723-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/723-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 10
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/792-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/792-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/792-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/792-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/792-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 11
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/819-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/819-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/819-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/819-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/819-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Sample 12
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/851-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/anchor/851-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/apollo/851-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/audiosr/851-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpcodec/851-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
 
 <br/>
