@@ -25,4 +25,59 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 
 ## Sample 1
 
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center> Reference </center>
+        </th>
+        <th>
+          <center> Anchor </center>
+        </th>
+        <th>
+          <center> Apollo </center>
+        </th>
+        <th>
+          <center> AudioSR </center>
+        </th>
+        <th>
+          <center> HP-codec+ </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/11-48.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/11-16.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/11-apo.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/11-aud.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/reference/11-our.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+
 <br/>
