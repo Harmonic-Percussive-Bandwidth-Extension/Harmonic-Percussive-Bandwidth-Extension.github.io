@@ -80,7 +80,7 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 <br/>
 
 <figure>
-<img src="/images/ICLR_spec_comp_1.png">
+<img src="/images/spec_comp_sample_11.png">
 </figure>
 
 
@@ -140,6 +140,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 </html>
 <br/>
 
+<figure>
+<img src="/images/spec_comp_sample_27.png">
+</figure>
+
 ## Sample 3
 
 <html>
@@ -195,6 +199,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   </table>
 </html>
 <br/>
+
+<figure>
+<img src="/images/spec_comp_sample_105.png">
+</figure>
 
 ## Sample 4
 
@@ -252,6 +260,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 </html>
 <br/>
 
+<figure>
+<img src="/images/spec_comp_sample_131.png">
+</figure>
+
 ## Sample 5
 
 <html>
@@ -307,6 +319,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   </table>
 </html>
 <br/>
+
+<figure>
+<img src="/images/spec_comp_sample_189.png">
+</figure>
 
 ## Sample 6
 
@@ -364,6 +380,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 </html>
 <br/>
 
+<figure>
+<img src="/images/spec_comp_sample_407.png">
+</figure>
+
 ## Sample 7
 
 <html>
@@ -419,6 +439,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   </table>
 </html>
 <br/>
+
+<figure>
+<img src="/images/spec_comp_sample_535.png">
+</figure>
 
 ## Sample 8
 
@@ -476,6 +500,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 </html>
 <br/>
 
+<figure>
+<img src="/images/spec_comp_sample_658.png">
+</figure>
+
 ## Sample 9
 
 <html>
@@ -531,6 +559,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   </table>
 </html>
 <br/>
+
+<figure>
+<img src="/images/spec_comp_sample_723.png">
+</figure>
 
 ## Sample 10
 
@@ -588,6 +620,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 </html>
 <br/>
 
+<figure>
+<img src="/images/spec_comp_sample_792.png">
+</figure>
+
 ## Sample 11
 
 <html>
@@ -644,6 +680,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 </html>
 <br/>
 
+<figure>
+<img src="/images/spec_comp_sample_819.png">
+</figure>
+
 ## Sample 12
 
 <html>
@@ -699,5 +739,9 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
   </table>
 </html>
 <br/>
+
+<figure>
+<img src="/images/spec_comp_sample_851.png">
+</figure>
 
 <br/>
