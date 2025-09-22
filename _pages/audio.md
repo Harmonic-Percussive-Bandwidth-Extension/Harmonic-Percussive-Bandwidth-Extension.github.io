@@ -80,7 +80,7 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 <br/>
 
 <figure>
-<img src="/images/ICLR_spec_comp_1.pdf">
+<img src="/images/ICLR_spec_comp_1.png">
 </figure>
 
 
