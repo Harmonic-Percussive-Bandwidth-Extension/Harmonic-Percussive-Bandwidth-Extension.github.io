@@ -25,6 +25,11 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 
 ## Sample 1
 
+> Source 16kHz
+<audio controls>
+  <source src="audio/source/11-48.wav"/>
+</audio>
+
 <html>
   <table>
     <thread>
