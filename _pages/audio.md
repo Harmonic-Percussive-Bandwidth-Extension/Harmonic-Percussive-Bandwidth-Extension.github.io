@@ -79,6 +79,10 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
 </html>
 <br/>
 
+<figure>
+<img src="/images/ICLR_spec_comp_1.pdf">
+</figure>
+
 
 ## Sample 2
 
