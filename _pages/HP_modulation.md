@@ -190,4 +190,515 @@ This is a demo of a Harmonic - Percussive modulation using HPcodec.
 </html>
 <br/>
 
+
+## Example 2
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center>  </center>
+        </th>
+        <th>
+          <center> H = 2.0 | P = 0.0 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.0 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.25 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.5 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.75 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.75 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.5 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.25 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.0 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.0 | P = 2.0 </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <center> 16kHz </center>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H2.0_P0.0/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.0/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.25/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.5/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.75/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P1.0/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.75_P1.0/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.5_P1.0/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.25_P1.0/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P1.0/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P2.0/sample_127_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <center> 48kHz </center>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H2.0_P0.0/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.0/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.25/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.5/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.75/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P1.0/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.75_P1.0/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.5_P1.0/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.25_P1.0/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P1.0/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P2.0/sample_127_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Example 3
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center>  </center>
+        </th>
+        <th>
+          <center> H = 2.0 | P = 0.0 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.0 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.25 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.5 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.75 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.75 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.5 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.25 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.0 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.0 | P = 2.0 </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <center> 16kHz </center>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H2.0_P0.0/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.0/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.25/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.5/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.75/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P1.0/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.75_P1.0/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.5_P1.0/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.25_P1.0/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P1.0/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P2.0/sample_135_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <center> 48kHz </center>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H2.0_P0.0/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.0/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.25/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.5/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.75/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P1.0/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.75_P1.0/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.5_P1.0/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.25_P1.0/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P1.0/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P2.0/sample_135_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
+## Example 4
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center>  </center>
+        </th>
+        <th>
+          <center> H = 2.0 | P = 0.0 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.0 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.25 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.5 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.75 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.75 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.5 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.25 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.0 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.0 | P = 2.0 </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <center> 16kHz </center>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H2.0_P0.0/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.0/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.25/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.5/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.75/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P1.0/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.75_P1.0/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.5_P1.0/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.25_P1.0/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P1.0/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P2.0/sample_143_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <center> 48kHz </center>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H2.0_P0.0/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.0/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.25/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.5/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.75/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P1.0/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.75_P1.0/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.5_P1.0/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.25_P1.0/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P1.0/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P2.0/sample_143_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
+
 <br/>
