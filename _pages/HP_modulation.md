@@ -125,6 +125,66 @@ This is a demo of a Harmonic - Percussive modulation using HPcodec.
           </audio>
         </th>
       </tr>
+      <tr>
+        <th>
+          <center> 48kHz </center>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H2.0_P0.0/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.0/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.25/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.5/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.75/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P1.0/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.75_P1.0/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.5_P1.0/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.25_P1.0/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P1.0/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P2.0/sample_119_sr48000.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
     </tbody>
   </table>
 </html>
