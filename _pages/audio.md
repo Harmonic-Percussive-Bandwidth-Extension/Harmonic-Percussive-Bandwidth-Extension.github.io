@@ -42,6 +42,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -50,27 +56,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/11-48.wav" type="audio/wav">
+            <source src="/audio/48/11-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/11-16.wav" type="audio/wav">
+            <source src="/audio/16/11-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/11-apo.wav" type="audio/wav">
+            <source src="/audio/APO/11-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/11-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/11-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/11-our.wav" type="audio/wav">
+            <source src="/audio/USR/11-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/11-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/11-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -103,6 +119,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -111,27 +133,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/27-48.wav" type="audio/wav">
+            <source src="/audio/48/27-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/27-16.wav" type="audio/wav">
+            <source src="/audio/16/27-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/27-apo.wav" type="audio/wav">
+            <source src="/audio/APO/27-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/27-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/27-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/27-our.wav" type="audio/wav">
+            <source src="/audio/USR/27-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/27-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/27-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -163,6 +195,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -171,27 +209,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/105-48.wav" type="audio/wav">
+            <source src="/audio/48/105-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/105-16.wav" type="audio/wav">
+            <source src="/audio/16/105-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/105-apo.wav" type="audio/wav">
+            <source src="/audio/APO/105-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/105-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/105-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/105-our.wav" type="audio/wav">
+            <source src="/audio/USR/105-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/105-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/105-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -223,6 +271,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -231,27 +285,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/131-48.wav" type="audio/wav">
+            <source src="/audio/48/131-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/131-16.wav" type="audio/wav">
+            <source src="/audio/16/131-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/131-apo.wav" type="audio/wav">
+            <source src="/audio/APO/131-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/131-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/131-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/131-our.wav" type="audio/wav">
+            <source src="/audio/USR/131-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/131-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/131-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -283,6 +347,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -291,27 +361,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/189-48.wav" type="audio/wav">
+            <source src="/audio/48/189-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/189-16.wav" type="audio/wav">
+            <source src="/audio/16/189-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/189-apo.wav" type="audio/wav">
+            <source src="/audio/APO/189-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/189-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/189-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/189-our.wav" type="audio/wav">
+            <source src="/audio/USR/189-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/189-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/189-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -343,6 +423,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -351,27 +437,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/407-48.wav" type="audio/wav">
+            <source src="/audio/48/407-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/407-16.wav" type="audio/wav">
+            <source src="/audio/16/407-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/407-apo.wav" type="audio/wav">
+            <source src="/audio/APO/407-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/407-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/407-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/407-our.wav" type="audio/wav">
+            <source src="/audio/USR/407-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/407-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/407-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -403,6 +499,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -411,27 +513,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/535-48.wav" type="audio/wav">
+            <source src="/audio/48/535-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/535-16.wav" type="audio/wav">
+            <source src="/audio/16/535-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/535-apo.wav" type="audio/wav">
+            <source src="/audio/APO/535-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/535-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/535-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/535-our.wav" type="audio/wav">
+            <source src="/audio/USR/535-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/535-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/535-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -463,6 +575,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -471,27 +589,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/658-48.wav" type="audio/wav">
+            <source src="/audio/48/658-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/658-16.wav" type="audio/wav">
+            <source src="/audio/16/658-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/658-apo.wav" type="audio/wav">
+            <source src="/audio/APO/658-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/658-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/658-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/658-our.wav" type="audio/wav">
+            <source src="/audio/USR/658-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/658-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/658-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -523,6 +651,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -531,27 +665,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/723-48.wav" type="audio/wav">
+            <source src="/audio/48/723-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/723-16.wav" type="audio/wav">
+            <source src="/audio/16/723-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/723-apo.wav" type="audio/wav">
+            <source src="/audio/APO/723-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/723-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/723-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/723-our.wav" type="audio/wav">
+            <source src="/audio/USR/723-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/723-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/723-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -583,6 +727,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -591,27 +741,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/792-48.wav" type="audio/wav">
+            <source src="/audio/48/792-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/792-16.wav" type="audio/wav">
+            <source src="/audio/16/792-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/792-apo.wav" type="audio/wav">
+            <source src="/audio/APO/792-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/792-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/792-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/792-our.wav" type="audio/wav">
+            <source src="/audio/USR/792-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/792-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/792-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -643,6 +803,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -651,27 +817,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/819-48.wav" type="audio/wav">
+            <source src="/audio/48/819-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/819-16.wav" type="audio/wav">
+            <source src="/audio/16/819-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/819-apo.wav" type="audio/wav">
+            <source src="/audio/APO/819-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/819-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/819-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/819-our.wav" type="audio/wav">
+            <source src="/audio/USR/819-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/819-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/819-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -703,6 +879,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
           <center> AudioSR </center>
         </th>
         <th>
+          <center> UniverSR </center>
+        </th>
+        <th>
+          <center> A2SB </center>
+        </th>
+        <th>
           <center> HP-codecX </center>
         </th>
       </tr>
@@ -711,27 +893,37 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
       <tr>
         <th>
           <audio controls="">
-            <source src="/audio/reference/851-48.wav" type="audio/wav">
+            <source src="/audio/48/851-48.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/anchor/851-16.wav" type="audio/wav">
+            <source src="/audio/16/851-16.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/apollo/851-apo.wav" type="audio/wav">
+            <source src="/audio/APO/851-apo.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/audiosr/851-aud.wav" type="audio/wav">
+            <source src="/audio/ASR/851-asr.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpcodec/851-our.wav" type="audio/wav">
+            <source src="/audio/USR/851-usr.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/A2S/851-a2S.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/audio/hpx/851-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
