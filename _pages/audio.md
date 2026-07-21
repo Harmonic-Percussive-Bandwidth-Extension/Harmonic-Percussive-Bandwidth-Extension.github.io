@@ -81,12 +81,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/11-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/11-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/11-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/11-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -158,12 +158,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/27-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/27-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/27-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/27-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -234,12 +234,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/105-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/105-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/105-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/105-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -310,12 +310,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/131-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/131-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/131-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/131-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -386,12 +386,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/189-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/189-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/189-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/189-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -462,12 +462,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/407-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/407-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/407-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/407-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -538,12 +538,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/535-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/535-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/535-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/535-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -614,12 +614,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/658-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/658-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/658-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/658-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -690,12 +690,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/723-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/723-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/723-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/723-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -766,12 +766,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/792-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/792-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/792-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/792-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -842,12 +842,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/819-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/819-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/819-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/819-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
@@ -918,12 +918,12 @@ In this page, we introduce a few audio examples drawn from the test set of <a hr
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/A2S/851-a2S.wav" type="audio/wav">
+            <source src="/audio/A2S/851-a2s.wav" type="audio/wav">
           </audio>
         </th>
         <th>
           <audio controls="">
-            <source src="/audio/hpx/851-hpx.wav" type="audio/wav">
+            <source src="/audio/HPX/851-hpx.wav" type="audio/wav">
           </audio>
         </th>
       </tr>
