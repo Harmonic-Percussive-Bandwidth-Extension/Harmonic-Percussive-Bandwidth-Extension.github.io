@@ -1,4 +1,3 @@
-
 ---
 title: "H-P Modulation"
 layout: single
