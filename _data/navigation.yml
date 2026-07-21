@@ -2,6 +2,8 @@
 main:
   - title: "Audio examples"
     url: /audio
+  - title: "H-P modulation"
+    url: /HP_modulation
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
