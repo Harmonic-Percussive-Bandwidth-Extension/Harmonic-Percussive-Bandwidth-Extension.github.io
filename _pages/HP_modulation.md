@@ -17,7 +17,117 @@ toc_sticky: true
 
 </html>
 
+This is a demo of a Harmonic - Percussive modulation using HPcodec.
 
-In this page, we introduce a few audio examples drawn from the test set of <a href="https://sigsep.github.io/datasets/musdb.html" target="_blank" rel="noopener noreferrer">MUSDB18</a>. Each audio example have been downsampled to 16kHz (Anchor), then processed successively by the <a href="https://cslikai.cn/Apollo/" target="_blank" rel="noopener noreferrer">Apollo</a> model, the <a href="https://audioldm.github.io/audiosr/" target="_blank" rel="noopener noreferrer">AudioSR</a> model, and our model HP-codecX.
+
+## Example 1
+
+<html>
+  <table>
+    <thread>
+      <tr>
+        <th>
+          <center>  </center>
+        </th>
+        <th>
+          <center> H = 2.0 | P = 0.0 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.0 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.25 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.5 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 0.75 </center>
+        </th>
+        <th>
+          <center> H = 1.0 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.75 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.5 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.25 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.0 | P = 1.0 </center>
+        </th>
+        <th>
+          <center> H = 0.0 | P = 2.0 </center>
+        </th>
+      </tr>
+    </thread>
+    <tbody>
+      <tr>
+        <th>
+          <center> 16kHz </center>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H2.0_P0.0/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.0/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.25/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.5/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P0.75/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H1.0_P1.0/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.75_P1.0/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.5_P1.0/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.25_P1.0/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P1.0/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+        <th>
+          <audio controls="">
+            <source src="/H-P_modulation/H0.0_P2.0/sample_119_sr16000.wav" type="audio/wav">
+          </audio>
+        </th>
+      </tr>
+    </tbody>
+  </table>
+</html>
+<br/>
 
 <br/>
