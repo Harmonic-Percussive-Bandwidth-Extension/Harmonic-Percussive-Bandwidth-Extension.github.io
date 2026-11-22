@@ -4,6 +4,8 @@ main:
     url: /audio
   - title: "H-P modulation"
     url: /HP_modulation
+  - title: "Full results"
+    url: /results
   - title: "Model details"
     url: /model_details
   # - title: "About"
