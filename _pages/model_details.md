@@ -32,7 +32,7 @@ The model is trained on 0.38-second audio segments. We use a batch size of 32 fo
 
 ## HP-codecX
 
-The transformer modules of HP-codecX follow the design of Wang et al. (2023). Each module employs five input embeddings mapping HP-codec tokens to 1024-dimensional representations, a 6-layer transformer decoder with 8 attention heads and hidden dimension 4096, followed by three dense layers that output the following tokens' prediction. Training is conducted on 2.5-second audio segments with a batch size of 32, on a single NVIDIA L40S GPU (48 GB memory), for 45,000 iterations over a total of 27 hours.
+The transformer modules of HP-codecX follow the design of Wang et al. (2023). Each module employs five input embeddings mapping HP-codec tokens to 1024-dimensional representations, a 6-layer transformer encoder (model dimension 1024, 8 attention heads, feed-forward dimension 4096) with bidirectional attention over time — each codebook is predicted for all time steps at once, the prediction remaining sequential across codebooks — followed by three dense layers that output the following tokens' prediction. Training is conducted on 2.5-second audio segments with a batch size of 32, on a single NVIDIA L40S GPU (48 GB memory), for 45,000 iterations over a total of 27 hours.
 
 ## References
 
