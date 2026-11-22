@@ -34,6 +34,15 @@ The model is trained on 0.38-second audio segments. We use a batch size of 32 fo
 
 The transformer modules of HP-codecX follow the design of Wang et al. (2023). Each module employs five input embeddings mapping HP-codec tokens to 1024-dimensional representations, a 6-layer transformer encoder (model dimension 1024, 8 attention heads, feed-forward dimension 4096) with bidirectional attention over time — each codebook is predicted for all time steps at once, the prediction remaining sequential across codebooks — followed by three dense layers that output the following tokens' prediction. Training is conducted on 2.5-second audio segments with a batch size of 32, on a single NVIDIA L40S GPU (48 GB memory), for 45,000 iterations over a total of 27 hours.
 
+## Configuration files
+
+The complete training configurations are available in the [HP-codecX code repository](https://github.com/Harmonic-Percussive-Bandwidth-Extension/HP-codecX):
+
+- [`conf/codec/16khz.yml`](https://github.com/Harmonic-Percussive-Bandwidth-Extension/HP-codecX/blob/main/conf/codec/16khz.yml): HP-codec, stage 1 (16 kHz branch); also defines the architecture, losses and data shared by all codec stages.
+- [`conf/codec/48khz.yml`](https://github.com/Harmonic-Percussive-Bandwidth-Extension/HP-codecX/blob/main/conf/codec/48khz.yml): HP-codec, stage 2 (48 kHz branch).
+- [`conf/codec/finetune.yml`](https://github.com/Harmonic-Percussive-Bandwidth-Extension/HP-codecX/blob/main/conf/codec/finetune.yml): HP-codec, stage 3 (joint fine-tuning).
+- [`conf/codecx/hpcodecx.yml`](https://github.com/Harmonic-Percussive-Bandwidth-Extension/HP-codecX/blob/main/conf/codecx/hpcodecx.yml): HP-codecX transformer modules.
+
 ## References
 
 - Kumar, R. et al. (2023). *High-Fidelity Audio Compression with Improved RVQGAN.*
