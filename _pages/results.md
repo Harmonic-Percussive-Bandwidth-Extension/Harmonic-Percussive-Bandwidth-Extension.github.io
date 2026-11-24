@@ -69,7 +69,7 @@ Parameters are counted twice: those the forward pass actually uses at inference,
 - **Structure-informed training (HP-codecX vs EXP 1)** is capacity-matched: the two configurations are identical in size.
 - **Multi-RVQ (EXP 2 vs EXP 3) and structure-informed training without multi-RVQ (EXP 3 vs EXP 4)** are capacity-matched too: EXP 2, EXP 3 and EXP 4 differ by less than 1 %.
 - **Multi-transformer (EXP 1 vs EXP 2)** is *not* capacity-matched: the second transformer stack gives EXP 1 44 % more parameters than EXP 2, at the same number of forward passes.
-- **Frequency branches (EXP 3 vs EXP 5)** is the least comparable pair. EXP 5 has 22 % fewer parameters than HP-codecX but performs twice as many transformer passes, because its single stack predicts twelve codebooks instead of six.
+- **Frequency branches (EXP 3 vs EXP 5)** is the least comparable pair. EXP 5 has 12 % more parameters than EXP 3 (194.1 M vs 173.4 M) and performs twice as many transformer passes, because its single stack predicts twelve codebooks instead of six; it has 22 % fewer parameters than HP-codecX. The confound therefore favours EXP 5. Where EXP 5 still does worse than EXP 3 (Mel, waveform L1, SI-SDR), the advantage of the frequency branches is conservative rather than inflated by capacity. STFT is a tie, and on ViSQOL EXP 5 scores higher, which its extra capacity may contribute to.
 
 All configurations use twelve codebooks of 1024 entries in the codec, so the codec bitrate is 12.0 kbit/s throughout, except EXP 5 at 11.25 kbit/s (93.75 instead of 100 frames per second).
 
