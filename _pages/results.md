@@ -13,13 +13,15 @@ toc_icon: "cog"
 toc_sticky: true
 ---
 
-This page gives the complete objective results for the paper. The paper itself reports a reduced set of metrics (Mel, STFT, ViSQOL); SI-SDR and waveform L1 are given here in full.
-
-**Why the paper reports fewer metrics.** The "do-nothing" anchor (the band-limited input simply upsampled to 48 kHz, which performs no bandwidth extension at all) obtains the *best* SI-SDR (22.47 dB) and the best waveform L1 (0.98·10⁻²) of any entry in Table A, and its SI-SDR is higher than HP-codecX's on every one of the 1000 test files. Both metrics are dominated by the 0–8 kHz band that every system receives unchanged as input, so they reward leaving the signal untouched rather than extending it. They are kept here for completeness and for comparison with prior work that reports them.
+This page gives the complete objective results for the paper, including the SI-SDR and waveform L1 values that the paper does not report. Why these two metrics are left out of the paper is explained in the first section below, [Why SI-SDR and waveform L1 are not used to compare systems](#why-si-sdr-and-waveform-l1-are-not-used-to-compare-systems).
 
 Unless stated otherwise, values are means over the MUSDB18 test set (n = 1000, 25 s excerpts), with 95 % pivotal bootstrap confidence intervals in brackets, truncated to two decimals. Waveform L1 is in units of 10⁻².
 
-## Table A — Objective bandwidth extension metrics (paper Table II)
+## Why SI-SDR and waveform L1 are not used to compare systems
+
+The "do-nothing" anchor (the band-limited input simply upsampled to 48 kHz, which performs no bandwidth extension at all) obtains the *best* SI-SDR (22.47 dB) and the best waveform L1 (0.98·10⁻²) of any entry in Table A, and its SI-SDR is higher than HP-codecX's on every one of the 1000 test files. Both metrics are dominated by the 0–8 kHz band that every system receives unchanged as input, so they reward leaving the signal untouched rather than extending it. For this reason the paper compares systems with Mel distance, STFT distance and ViSQOL only. SI-SDR and waveform L1 are kept on this page for completeness and for comparison with prior work that reports them.
+
+## Table A — Objective bandwidth extension metrics (paper Table IV)
 
 MUSDB18 test set. Apollo and A2SB are scored at 44.1 kHz; the anchor, AudioSR, UniverSR and HP-codecX at 48 kHz.
 
@@ -36,7 +38,7 @@ Bold marks the best value in each column, the anchor included. On waveform L1 th
 
 Full-precision anchor values: Mel 2.134309 [2.108947, 2.160497]; STFT 6.162785 [6.095153, 6.231618]; waveform 0.009797 [0.009418, 0.010177]; SI-SDR 22.470424 [22.030500, 22.885937]; ViSQOL 1.924759 [1.897724, 1.949673].
 
-## Table B — Ablation study (paper Table III)
+## Table B — Ablation study (paper Table V)
 
 Design choices: **ST** = structure-informed training, **MT** = multi-transformer prediction, **MR** = multi-RVQ, **FB** = frequency branches.
 
@@ -51,7 +53,27 @@ Design choices: **ST** = structure-informed training, **MT** = multi-transformer
 
 Each configuration differs from the previous one by a single component, so consecutive rows isolate one design choice: HP-codecX→EXP 1 isolates structure-informed training, EXP 1→EXP 2 the multi-transformer, EXP 2→EXP 3 the multi-RVQ, EXP 3→EXP 5 the frequency branches. EXP 4 sits outside this chain, reintroducing structure-informed training on top of EXP 3. EXP 5 uses a standard 48 kHz DAC fed with upsampled audio. EXP 1 and EXP 2 are indistinguishable on every metric: the multi-transformer shows no measurable effect on its own.
 
-## Table C — Per-section results across datasets (paper Table IV)
+### Model capacity of the ablation configurations
+
+Parameters are counted twice: those the forward pass actually uses at inference, and those stored in the released checkpoints. Transformer passes are forward passes of a transformer stack per generated excerpt.
+
+| Config | Params used at inference (M) | Params stored (M) | Transformer passes |
+|---|---|---|---|
+| HP-codecX | 247.9 | 347.3 | 6 (2 stacks × 3) |
+| EXP 1 | 247.9 | 347.3 | 6 (2 stacks × 3) |
+| EXP 2 | 172.3 | 259.1 | 6 (1 stack × 6) |
+| EXP 3 | 173.4 | 260.2 | 6 (1 stack × 6) |
+| EXP 4 | 173.4 | 260.2 | 6 (1 stack × 6) |
+| EXP 5 | 194.1 | 194.1 | 12 (1 stack × 12) |
+
+- **Structure-informed training (HP-codecX vs EXP 1)** is capacity-matched: the two configurations are identical in size.
+- **Multi-RVQ (EXP 2 vs EXP 3) and structure-informed training without multi-RVQ (EXP 3 vs EXP 4)** are capacity-matched too: EXP 2, EXP 3 and EXP 4 differ by less than 1 %.
+- **Multi-transformer (EXP 1 vs EXP 2)** is *not* capacity-matched: the second transformer stack gives EXP 1 44 % more parameters than EXP 2, at the same number of forward passes.
+- **Frequency branches (EXP 3 vs EXP 5)** is the least comparable pair. EXP 5 has 22 % fewer parameters than HP-codecX but performs twice as many transformer passes, because its single stack predicts twelve codebooks instead of six.
+
+All configurations use twelve codebooks of 1024 entries in the codec, so the codec bitrate is 12.0 kbit/s throughout, except EXP 5 at 11.25 kbit/s (93.75 instead of 100 frames per second).
+
+## Table C — Per-section results across datasets (paper Table VI)
 
 HP-codecX output reconstructed from the estimated harmonic tokens only (**H**), the estimated percussive tokens only (**P**), or both (**H+P**). Dataset families: *solo instruments* (Medley-solos-DB, OrchideaSOL), *harmonic* (Monophonic, Polyphonic), *percussive* (ENST-drums), *environmental sounds* (ESC-50), *speech* (VCTK).
 
@@ -117,7 +139,7 @@ MUSDB18 test set. soft-dis-DAC is the model of Giniès et al. with the harmonic 
 | soft-dis-DAC | **0.72** [0.72, 0.73] | **2.22** [2.20, 2.23] | 4.3 [4.2, 4.4] | 8.10 [7.92, 8.28] | 4.33 [4.32, 4.34] |
 | DAC | 0.75 [0.75, 0.76] | 2.24 [2.22, 2.26] | **4.1** [4.0, 4.2] | **8.79** [8.61, 8.97] | 3.92 [3.90, 3.94] |
 
-## Table E — Inference complexity (paper Table V)
+## Table E — Inference complexity (paper Table VII)
 
 One NVIDIA L40S, 10 s mono excerpt, median of 10 runs after 3 warm-ups, IQR below 1 % of the median for every model. Params: evaluated at inference / stored in the checkpoints. NFE: network evaluations. RTF: processing time divided by signal duration.
 
@@ -133,9 +155,9 @@ HP-codec alone: 149.03 M parameters (16 kHz branch 73.88 M, 48 kHz branch 75.15 
 
 HP-codecX's lean inference path measures an RTF of 0.011; the figure in the table (0.021) is that of the released sample-generation script, which performs additional codec passes whose outputs are discarded.
 
-## Figure data
+## Supplementary data
 
-### Harmonic/percussive energy concentration (paper Fig. 4)
+### Harmonic/percussive energy concentration (paper Table III)
 
 Change in energy concentration, in percent, between a reconstruction using only one RVQ section and the full reconstruction.
 
@@ -146,9 +168,9 @@ Change in energy concentration, in percent, between a reconstruction using only 
 
 Harmonic energy concentrates in the harmonic reconstruction and percussive energy in the percussive reconstruction, at both sampling rates.
 
-### HP-codec reconstruction by input type and RVQ section (paper Fig. 3)
+### HP-codec reconstruction by input type and RVQ section (paper Table II)
 
-The values behind the spider plots. *Input* is the signal fed to HP-codec and used as the reference: the full mixture (Global), or its HPSS harmonic or percussive component. *Sections* are the RVQ sections used for decoding. MUSDB18 test set, n = 1000 per row.
+*Input* is the signal fed to HP-codec and used as the reference: the full mixture (Global), or its HPSS harmonic or percussive component. *Sections* are the RVQ sections used for decoding. MUSDB18 test set, n = 1000 per row.
 
 | Input | Sections | Rate | Mel ↓ | STFT ↓ | Waveform (×10⁻²) ↓ | SI-SDR (dB) ↑ | ViSQOL ↑ |
 |---|---|---|---|---|---|---|---|
@@ -171,9 +193,9 @@ The values behind the spider plots. *Input* is the signal fed to HP-codec and us
 | Percussive | P | 16 kHz | 1.81 [1.76, 1.85] | 2.60 [2.54, 2.64] | 2.89 [2.79, 2.98] | 2.56 [2.35, 2.77] | 4.23 [4.22, 4.23] |
 | Percussive | P | 48 kHz | 1.28 [1.27, 1.29] | 1.86 [1.85, 1.87] | 1.56 [1.52, 1.61] | -4.69 [-4.91, -4.47] | 3.86 [3.84, 3.88] |
 
-### Out-of-domain bandwidth extension (paper Fig. 7)
+### Out-of-domain bandwidth extension (paper Fig. 5)
 
-The values behind the out-of-domain heatmaps, for all five metrics (the paper's figure shows Mel, STFT and ViSQOL). n = 1000 per cell. ESC-50 values are computed on 992 clips (see the note on silent clips under Table C).
+The values behind the out-of-domain heatmap, for all five metrics (the paper's figure shows Mel, STFT and ViSQOL). n = 1000 per cell. ESC-50 values are computed on 992 clips (see the note on silent clips under Table C).
 
 #### Mel ↓
 
@@ -225,7 +247,7 @@ The values behind the out-of-domain heatmaps, for all five metrics (the paper's 
 | UniverSR | 2.98 [2.93, 3.03] | 2.77 [2.70, 2.83] | 4.24 [4.19, 4.28] | 2.99 [2.94, 3.03] | 2.56 [2.50, 2.62] | 2.50 [2.45, 2.56] | 2.56 [2.54, 2.58] |
 | **HP-codecX** | 3.21 [3.16, 3.26] | 3.18 [3.12, 3.23] | 4.20 [4.16, 4.24] | 3.80 [3.77, 3.82] | 3.40 [3.34, 3.45] | 3.12 [3.08, 3.17] | 2.50 [2.48, 2.52] |
 
-## Listening test
+## Listening test (paper Fig. 4)
 
 MUSHRA, 13 listeners, 12 trials, 5 stimuli per trial, continuous 0–100 scale. Excerpts drawn from the MUSDB18 test set, six with high high-frequency energy and six from the remainder. Median and quartiles over all ratings.
 
